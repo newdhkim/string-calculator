@@ -77,7 +77,7 @@ class StringCalculatorTest {
 
     @Test
     void 나눗셈_연산을_수행한다() {
-        assertThat(calculator.calculate("op=/|12,3,2")).isEqualTo(2);
+        assertThat(calculator.calculate("op=/|12,3,2")).isEqualTo(2.0);
     }
 
     // ── 요구사항 4: 예외 처리 ────────────────────────────
