@@ -6,4 +6,12 @@ package calculator;
  * 반드시 이 클래스를 사용할 필요는 없다. 자유롭게 설계할 것.
  */
 public enum OperationType {
+
+    ADDITION,
+
+    SUBTRACTION,
+
+    MULTIPLICATION,
+
+    DIVISION
 }
